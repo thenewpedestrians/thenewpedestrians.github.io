@@ -1,0 +1,163 @@
+html, body{
+    height: 100%;
+    text-align: center;
+    font-family: 'Sunflower', sans-serif;
+}
+
+
+/*      TOP      */
+
+.top {
+    height: 100%;
+    background-image: url(../images/pb_edit1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.mobile_device_380px {
+    display: none;
+}
+
+.mobile_device_480px {
+    display: none;
+}
+
+.logo {
+    width: 70%;
+    max-width: 450px;
+    padding-top: 100px;
+}
+
+
+
+/*      MEMBERS      */
+
+
+
+.members {
+    background-color: lightgray;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.member {
+    padding-bottom: 25px;
+}
+
+.membersrow {
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.memberimg {
+    width: 90%;
+    max-width: 200px;
+    border-radius: 50%;
+    background-image: url(../images/potential%2520kevin/kevin_standing.png);
+}
+
+.membername {
+    font-size: 30px;
+}
+
+.instrument {
+    font-size: 15px;
+}
+
+.contain {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.dummy {
+    margin-top: 100%;
+}
+
+.element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.element:hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#paul {
+    background-image: url(../images/potential_paul/paul_standing_v2.png);
+    transition: 0.5s linear;
+}
+
+#paul:hover {
+    background-image: url(../images/potential_paul/paul_hover.png);
+    transition: 0.5s linear;
+}
+
+#kevin {
+    background-image: url(../images/potential_kevin/kevin_standing.png);
+    transition: 0.5s linear;
+}
+
+#kevin:hover {
+    background-image: url(../images/potential_kevin/kevin_hover.png);
+    transition: 0.5s linear;
+}
+
+#tony {
+    background-image: url(../images/potential_tony/tony_standing.png);
+    transition: 0.5s linear;
+}
+
+#tony:hover {
+    background-image: url(../images/potential_tony/tony_hover.png);
+    transition: 0.5s linear;
+}
+
+#chris_u {
+    background-image: url(../images/potential_CU/cu_standing.png);
+    transition: 0.5s linear;
+}
+
+#chris_u:hover {
+    background-image: url(../images/potential_CU/cu_hover.png);
+    transition: 0.5s linear;
+}
+
+#steve {
+    background-image: url(../images/potential_steve/steve_standing.png);
+    transition: 0.5s linear;
+}
+
+#steve:hover {
+    background-image: url(../images/potential_steve/steve_hover.png);
+    transition: 0.5s linear;
+}
+
+#chris_b {
+    background-image: url(../images/potential_CB/cb_standing.png);
+    transition: 0.5s linear;
+}
+
+#chris_b:hover {
+    background-image: url(../images/potential_CB/cb_hover.png);
+    transition: 0.5s linear;
+}
