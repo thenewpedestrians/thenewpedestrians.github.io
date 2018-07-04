@@ -1,15 +1,15 @@
-#preload-k-s { background: url(../images/potential_kevin/kevin_standing.png) no-repeat -9999px -9999px;}
-#preload-k-h { background: url(../images/potential_kevin/kevin_hover.png) no-repeat -9999px -9999px; }
-#preload-p-s { background: url(../images/potential_paul/paul_standing_v2.png) no-repeat -9999px -9999px; }
-#preload-p-h { background: url(../images/potential_paul/paul_hover.png) no-repeat -9999px -9999px; }
-#preload-t-s { background: url(../images/potential_tony/tony_standing.png) no-repeat -9999px -9999px; }
-#preload-t-h { background: url(../images/potential_tony/tony_hover.png) no-repeat -9999px -9999px; }
-#preload-cu-s { background: url(../images/potential_CU/cu_standing.png) no-repeat -9999px -9999px; }
-#preload-cu-h { background: url(../images/potential_CU/cu_hover.png) no-repeat -9999px -9999px; }
-#preload-s-s { background: url(../images/potential_steve/steve_standing.png) no-repeat -9999px -9999px; }
-#preload-s-h { background: url(../images/potential_steve/steve_hover.png) no-repeat -9999px -9999px; }
-#preload-cb-s { background: url(../images/potential_CB/cb_standing.png) no-repeat -9999px -9999px; }
-#preload-cb-h { background: url(../images/potential_CB/cb_hover.png) no-repeat -9999px -9999px; }
+#preload-k-s { background: url(../images/potential_kevin/kevin_standing_COMPRESSED.png) no-repeat -9999px -9999px;}
+#preload-k-h { background: url(../images/potential_kevin/kevin_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-p-s { background: url(../images/potential_paul/paul_standing_v2_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-p-h { background: url(../images/potential_paul/paul_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-t-s { background: url(../images/potential_tony/tony_standing_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-t-h { background: url(../images/potential_tony/tony_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-cu-s { background: url(../images/potential_CU/cu_standing_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-cu-h { background: url(../images/potential_CU/cu_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-s-s { background: url(../images/potential_steve/steve_standing_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-s-h { background: url(../images/potential_steve/steve_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-cb-s { background: url(../images/potential_CB/cb_standing_COMPRESSED.png) no-repeat -9999px -9999px; }
+#preload-cb-h { background: url(../images/potential_CB/cb_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
 
 html, body{
     height: 100%;
@@ -23,19 +23,11 @@ html, body{
 
 .top {
     height: 100%;
-    background-image: url(../images/pb_edit1_copy.png);
+    background-image: url(../images/bw.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-}
-
-.mobile_device_380px {
-    display: none;
-}
-
-.mobile_device_480px {
-    display: none;
 }
 
 .logo {
@@ -43,18 +35,6 @@ html, body{
     max-width: 450px;
     padding-top: 50px;
     transition: 
-}
-
-#timelapse {
-    position: fixed;
-    bottom:0;
-    right:0;
-}
-
-.alttop {
-    top:0;
-    position: absolute;
-    width: 100%;
 }
 
 .fadein {
@@ -76,10 +56,6 @@ html, body{
     }
 }
 
-.btn {
-    width:100px;
-}
-
 /*      MEMBERS      */
 
 
@@ -99,13 +75,6 @@ html, body{
 
 .title {
     font-size: 50px;
-}
-
-.memberimg {
-    width: 90%;
-    max-width: 200px;
-    border-radius: 50%;
-    background-image: url(../images/potential%2520kevin/kevin_standing.png);
 }
 
 .membername {
@@ -151,61 +120,61 @@ html, body{
 }
 
 #paul {
-    background-image: url(../images/potential_paul/paul_standing_v2.png);
+    background-image: url(../images/potential_paul/paul_standing_v2_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #paul:hover {
-    background-image: url(../images/potential_paul/paul_hover.png);
+    background-image: url(../images/potential_paul/paul_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #kevin {
-    background-image: url(../images/potential_kevin/kevin_standing.png);
+    background-image: url(../images/potential_kevin/kevin_standing_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #kevin:hover {
-    background-image: url(../images/potential_kevin/kevin_hover.png);
+    background-image: url(../images/potential_kevin/kevin_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #tony {
-    background-image: url(../images/potential_tony/tony_standing.png);
+    background-image: url(../images/potential_tony/tony_standing_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #tony:hover {
-    background-image: url(../images/potential_tony/tony_hover.png);
+    background-image: url(../images/potential_tony/tony_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #chris_u {
-    background-image: url(../images/potential_CU/cu_standing.png);
+    background-image: url(../images/potential_CU/cu_standing_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #chris_u:hover {
-    background-image: url(../images/potential_CU/cu_hover.png);
+    background-image: url(../images/potential_CU/cu_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #steve {
-    background-image: url(../images/potential_steve/steve_standing.png);
+    background-image: url(../images/potential_steve/steve_standing_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #steve:hover {
-    background-image: url(../images/potential_steve/steve_hover.png);
+    background-image: url(../images/potential_steve/steve_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #chris_b {
-    background-image: url(../images/potential_CB/cb_standing.png);
+    background-image: url(../images/potential_CB/cb_standing_COMPRESSED.png);
     transition: 0.5s linear;
 }
 
 #chris_b:hover {
-    background-image: url(../images/potential_CB/cb_hover.png);
+    background-image: url(../images/potential_CB/cb_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
