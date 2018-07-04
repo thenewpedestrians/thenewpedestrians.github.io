@@ -15,15 +15,15 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.map">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
-    <!--<link rel="stylesheet" href="css/animate.css">
+    <!--<link rel="stylesheet" href="css/animate.css">-->
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     <link rel="icon" type="image/png" href="images/new_pedestrians_logo_v2.png">
     
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/85eb700f36.js"></script>
-    <script src="js/custom.js"></script>-->
+    <!--<script src="js/custom.js"></script>-->
     
     <title>The New Pedestrians</title>
 </head>
@@ -43,10 +43,43 @@
     <div id="preload-cb-s"></div>
     <div id="preload-cb-h"></div>
     
+    
+    
+    <nav class="navbar navbar-custom navbar-fixed-top center" role="navigation" id="nav">
+        <div class="container navbar-inner">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav thenavbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#member_section">Members</a></li>
+                    <li><a href="mailto:The83Pedestrians@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    
     <div class="top">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3">
                 <img src="images/pedestrians_logo.png" class="logo fadein">
+            </div>
+        </div>
+        <div class="row btn-container fadein2">
+            <div class="col-lg-2 col-lg-offset-5">
+                <a href="#member_section">
+                    <div class="downarrow">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -127,8 +160,11 @@
         
     </div>
     
-    
-    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 
