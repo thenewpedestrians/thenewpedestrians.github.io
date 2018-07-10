@@ -331,3 +331,21 @@ html, body{
     background-image: url(../images/potential_CB/cb_hover_COMPRESSED.png);
     transition: 0.5s linear;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+    .top {
+        height: 100%;
+        background-image: url(../images/bw-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
