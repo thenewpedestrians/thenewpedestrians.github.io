@@ -1,3 +1,4 @@
+#preload-bg { background: url(../images/bw.png) no-repeat -9999px -9999px;}
 #preload-k-s { background: url(../images/potential_kevin/kevin_standing_COMPRESSED.png) no-repeat -9999px -9999px;}
 #preload-k-h { background: url(../images/potential_kevin/kevin_hover_COMPRESSED.png) no-repeat -9999px -9999px; }
 #preload-p-s { background: url(../images/potential_paul/paul_standing_v2_COMPRESSED.png) no-repeat -9999px -9999px; }
@@ -166,13 +167,13 @@ html, body{
     font-size: 30px;
     transition: 1s;
     border: 2px solid #ECFC20;
+    height: 45px;
 }
 
 .downarrow:hover {
     background-color: black;
     border: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -181,6 +182,41 @@ html, body{
     font-size: 30px;
     transition: 1s;
     border: 2px solid #ECFC20;
+    height: 45px;
+}
+
+.contact-btn {
+    font-size: 14px;
+    height: 45px;
+    background-color: #ECFC20;
+    width: 100px;
+    font-family: 'Sunflower', sans-serif;
+    text-align: center;
+    border: none;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3%;
+    transition: 1s;
+}
+
+.contact-btn:hover {
+    font-size: 14px;
+    height: 45px;
+    background-color: black;
+    width: 100px;
+    font-family: 'Sunflower', sans-serif;
+    text-align: center;
+    border: 2px solid #ECFC20;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3%;
+    transition: 1s;
+}
+
+.contact-btn-text {
+    line-height: 45px;
 }
 
 .btn-container {
@@ -195,6 +231,11 @@ html, body{
     background-color: lightgray;
     height: 100%;
     font-family: 'Sunflower', sans-serif;
+    font-size: 16px;
+}
+
+.aboutline1 {
+    padding-top: 30px;
 }
 
 
@@ -335,17 +376,89 @@ html, body{
 
 
 
+.contact {
+    min-height: 100%;
+    background-color: lightgray;
+    font-family: 'Sunflower', sans-serif;
+}
 
+.fullwidth {
+    width: 100%;
+    max-width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+}
 
+input[type=submit] {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 5px;
+    background-color: #ECFC20;
+    height: 35px;
+    font-size: 15px;
+    transition: 1s;
+}
 
+input[type=submit]:hover {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 5px;
+    background-color: black;
+    height: 35px;
+    font-size: 15px;
+    transition: 1s;
+    color: white;
+}
+
+.contactform {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
 
 @media only screen and (max-device-width: 480px) {
     .top {
         height: 100%;
-        background-image: url(../images/bw-mobile.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
+        background-image: linear-gradient(#FFFD95, #393838);
     }
+}
+
+
+
+
+
+
+
+/*                  LANDING                 */
+
+
+
+.landing-top {
+    height: 100%;
+    background-image: linear-gradient(#FFFD95, #393838);
+}
+
+.landing-title {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 45px;
+    padding-top: 150px;
+}
+
+.landing-sub {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.landing-btn {
+    
 }
