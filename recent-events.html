@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.map">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--<link rel="stylesheet" href="css/animate.css">-->
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -65,6 +66,8 @@
                 Indian Trail Club - 7/12
             </div>
         </div>
+        
+        <!--
         <div class="row eventrow">
             <div class="col-lg-5 col-lg-offset-1">
                 <img src="images/bg-IMG_1755.JPG" class="eventimage">
@@ -73,8 +76,29 @@
                 <img src="images/bg-IMG_1742.JPG" class="eventimage">
             </div>
         </div>
+        -->
         
-        <div class="row">
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="images/slideshow/itc/bg-IMG_1742.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/bg-IMG_1755.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1739.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1745.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1762.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1775.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1780.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1781.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1784.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1796.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1797.JPG" style="width:100%">
+            <img class="mySlides" src="images/slideshow/itc/IMG_1801.JPG" style="width:100%">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+
+        
+        
+        <div class="row btn-row">
             <div class="col-lg-2 col-lg-offset-5">
                 <a href="index.html">
                     <div class="contact-btn">
@@ -98,8 +122,24 @@
         </div>-->
     </div>
     
-    
-    
+   
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+        }
+    </script>
     
     
     
